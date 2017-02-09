@@ -218,7 +218,7 @@ describe 'VASTParser', ->
 
                         it 'should have 1 url for creativeView event', =>
                             companion.trackingEvents['creativeView'].should.eql ['http://example.com/companion1-creativeview']
-				       
+
                         it 'should have checked that AltText exists', =>
                             companion.should.have.property('altText')
 
@@ -451,10 +451,10 @@ describe 'VASTParser', ->
         it 'correctly loads a wrapped ad, even with the VASTAdTagURL-Tag', (done) ->
             VASTParser.parse urlfor('wrapper-legacy.xml'), (response) =>
                 it 'should have found 1 ad', =>
-                    response.ads.should.have.length 1
+                    response.ads.should.have.length 1 # THIS TEST NEVER RUNS!!!!
 
                 it 'should have returned a VAST response object', =>
-                    response.should.be.an.instanceOf(VASTResponse)
+                    response.should.be.an.instanceOf(VASTResponse) # THIS TEST NEVER RUNS!!!!
 
                 # we just want to make sure that the sample.xml was loaded correctly
                 linear = response.ads[0].creatives[0]
@@ -463,6 +463,23 @@ describe 'VASTParser', ->
                     mediaFile.width.should.equal 512
                     mediaFile.height.should.equal 288
                     mediaFile.mimeType.should.equal "video/mp4"
-                    mediaFile.fileURL.should.equal "http://example.com/asset.mp4"
+                    mediaFile.fileURL.should.equal "http://example.com/asset.mp4"  # THIS TEST NEVER RUNS!!!!
 
+                done()
+
+
+    describe '#ad-pods', ->
+        errorCallbackCalled = 0
+        errorCode = null
+        errorCallback = (ec) ->
+            errorCallbackCalled++
+            errorCode = ec
+
+        beforeEach =>
+            VASTParser.vent.removeAllListeners()
+            errorCallbackCalled = 0
+
+        it 'loads 2 ads from the ad pod', (done) ->
+            VASTParser.parse urlfor('vast_pods.xml'), (response) =>
+                response.ads.length.should.eql 2
                 done()

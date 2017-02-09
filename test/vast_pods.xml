@@ -1,0 +1,70 @@
+<VAST version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="18215345.140179126715136" sequence="1">
+        <Wrapper>
+            <AdSystem>FreeWheel</AdSystem>
+            <VASTAdTagURI><![CDATA[http://fr-canalplus.videoplaza.tv/proxy/distributor/v2?s=9ba15f25-b356-47c2-a13c-839ba495dc1c&tt=p&rt=vast_2.0&rnd={random}&xgid=4e8aba88-5077-491e-a9ce-5e5c749f9237&pf=fl_11]]></VASTAdTagURI>
+            <Error><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&iw=&uxnw=&uxss=&uxct=&et=e&cn=%5BERRORCODE%5D]]></Error>
+            <Impression><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=defaultImpression&et=i&_cc=18215345,6576531,,,1486658855,1&tpos=0&iw=&uxnw=&uxss=&uxct=&metr=1023&init=1&cr=]]></Impression>
+            <Creatives>
+                <Creative AdID="18215345">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="complete"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=complete&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=firstQuartile&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=midPoint&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=thirdQuartile&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="mute"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_mute&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_un-mute&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_collapse&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="expand"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_expand&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="pause"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_pause&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="resume"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_resume&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_rewind&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_accept-invitation&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="close"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=_close&et=s&_cc=&tpos=0]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="FWc_18215345.0"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215345&reid=6576531&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+    <Ad id="18215260.140179126716288" sequence="2">
+        <InLine>
+            <AdSystem>FreeWheel</AdSystem>
+            <AdTitle>DED_PREROLL_DIRECT</AdTitle>
+            <Error><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&iw=&uxnw=&uxss=&uxct=&et=e&cn=%5BERRORCODE%5D]]></Error>
+            <Impression id="FWi_18215260.0"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=defaultImpression&et=i&_cc=18215260,6548729,,,1486658855,1&tpos=0&iw=&uxnw=&uxss=&uxct=&metr=1023&init=1&cr=]]></Impression>
+            <Creatives>
+                <Creative AdID="18215260">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <TrackingEvents>
+                            <Tracking event="complete"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=complete&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=firstQuartile&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=midPoint&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=thirdQuartile&et=i&_cc=&tpos=0&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event="mute"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_mute&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_un-mute&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_collapse&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="expand"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_expand&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="pause"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_pause&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="resume"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_resume&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_rewind&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_accept-invitation&et=s&_cc=&tpos=0]]></Tracking>
+                            <Tracking event="close"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=_close&et=s&_cc=&tpos=0]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="FWc_18215260.0"><![CDATA[http://7bd91.v.fwmrm.net/ad/l/1?s=d016&n=507281%3B507281&t=1486658855187658014&f=&r=507281&adid=18215260&reid=6548729&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile bitrate="1096" delivery="progressive" height="360" id="6548729" type="video/mp4" width="640"><![CDATA[http://m1.fwmrm.net/m/1/507281/29/2557213/6548729/0f07c060-e872-40b7-b40f-ec4d9ca3ba9c_1485356808.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
